@@ -12,7 +12,7 @@ A Fully Responsive **Full Stack** Web Application built using **React.js, Node.j
 # HomePage
 - It comprises of **Sidebar**, **Feed**, **Widgets**
 - **Sidebar** - To show the different spaces user can visit to gain & share knowledge
-- **Feed** - Where all the posts from the first till the last post is begin shown
+- **Feed** - Where all the posts from the first till the last post is being shown
 - **Widgets**  - A Space to be followed by the users to be a part of the group
 <img src="images/img2.png" >
 
