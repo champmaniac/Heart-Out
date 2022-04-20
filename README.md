@@ -4,7 +4,7 @@ HERE you **HEAR** your **HEART**, and pour it **OUT** with your **ART** (questio
 
 A Fully Responsive **Full Stack** Web Application built using **React.js, Node.js, Express.js, MongoDB & Firebase** 
 - A Platform to ask questions and get quality answers with **Google Authentication** enabled.
-- Getting **Real-Time** data with **Rest-API** integration along with **React Quill** as a smooth Rich Text Editor
+- Getting **Real-Time** data of users, questions and answers concurrently with **Rest-API** integration along with **React Quill** as a smooth Rich Text Editor
 # Signup/Login
 - Users can either Login with **Google** or with **Email/password**
 <img src="images/Img1.png" >
