@@ -1,0 +1,277 @@
+.qHeader {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+    /* box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5); */
+    box-shadow: 2px 3px 6px rgba(187, 187, 187, 0.5);
+    justify-content: center;
+    padding: 3px;
+}
+
+.qHeader-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+}
+
+.qHeader-content__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    fill-rule: evenodd;
+    padding: 6px;
+    color: rgb(185, 43, 39);
+    font-weight: bold;
+    font-family: -apple-system;
+    font-size: calc(32px * var(--dynamic-font-scale, 1));
+    /* margin-right:70px;
+    margin-left: 20px; */
+
+}
+
+.qHeader__logo>img {
+    height: 42px !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 170px;
+    height: 140px;
+    /* margin: 6px; */
+    border-radius: 3%;
+}
+.qHeader__icons {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .qHeader__icon {
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    .qHeader__icon:hover {
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 0px;
+        margin: 0px;
+        color-scheme: light;
+        --vh: 7.94px;
+    }
+
+    .qHeader__icon>.MuiSvgIcon-root {
+        color: #000;
+        font-size: xx-large;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .qHeader__icon:hover>.MuiSvgIcon-root {
+        color: #b92b27;
+        visibility: visible;
+    }
+
+    /* .qHeader__icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .qHeader__icons > .active > .MuiSvgIcon-root {
+    color: #8f1f1b;
+  }
+  .qHeader__icon > .MuiSvgIcon-root {
+    font-size: xx-large;
+    padding: 5px 20px;
+    color: gray;
+  }
+  .qHeader__icon > .MuiSvgIcon-root:hover {
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+    color: #b92b27;
+  } */
+
+    .qHeader__input {
+        display: flex;
+        align-items: center;
+        border: 1px solid lightgray;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 45px;
+    }
+
+    .qHeader__Rem-button {
+        background-color: #b92b27;
+        font-family: -apple-system;
+    }
+
+    .qHeader__Rem-button:hover {
+        border: 1px solid rgb(213, 15, 15);
+        background-color: #545454;
+    }
+
+    .qHeader__input>input {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: rgb(49, 49, 49);
+    }
+
+    .qHeader__input>.MuiSvgIcon-root {
+        color: gray;
+    }
+
+    .qHeader__avatar {
+        cursor: pointer;
+    }
+
+    .qHeader__Rem {
+        display: flex;
+        align-items: center;
+        margin-left: 45px;
+    }
+
+    .qHeader__Rem>.MuiSvgIcon-root {
+        font-size: xx-large;
+        color: gray;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    .qHeader__Rem>.MuiSvgIcon-root:hover {
+        color: rgb(97, 2, 2);
+    }
+
+    .qHeader__Rem>.MuiButton-root {
+        color: white;
+        background: #b92b27;
+        text-transform: inherit;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+
+    .qHeader__Rem>.MuiButton-root:hover {
+        color: white;
+        background: black;
+    }
+
+    .modal__title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+    }
+
+    .modal__title>h5 {
+        color: gray;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 500;
+        margin-right: 30px;
+    }
+
+    .modal__title>h5:hover {
+        color: #b92b27;
+    }
+
+    .modal__info {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .modal__info>p {
+        margin-left: 10px;
+        font-size: small;
+        color: gray;
+    }
+
+    .modal__info>.modal__scope {
+        display: flex;
+        align-items: center;
+        color: rgb(98, 98, 98);
+        padding: 5px;
+        margin-left: 10px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 33px;
+        cursor: pointer;
+    }
+
+    .modal__Field {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        flex: 1;
+    }
+
+    .modal__Field>.modal__fieldLink {
+        color: gray;
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .modal__Field>.modal__fieldLink>input {
+        flex: 1;
+        border: none;
+        outline: none;
+        margin-left: 5px;
+    }
+
+    .modal__buttons {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .modal__buttons>.cancel {
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 33px;
+        cursor: pointer;
+    }
+
+    .modal__buttons>.cancel:hover {
+        background-color: rgb(185, 24, 24);
+        color: white;
+    }
+
+    .modal__buttons>.add {
+        border: none;
+        outline: none;
+        margin-top: 10px;
+        background-color: black;
+        color: #eee;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 33px;
+        cursor: pointer;
+        width: 50%;
+    }
+
+    .modal__buttons>.add:hover {
+        background-color: rgb(185, 24, 24);
+        color: white;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .qHeader__icons {
+            display: none;
+        }
+
+        .qHeader__input {
+            display: none;
+        }
+    }
